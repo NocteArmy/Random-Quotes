@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+.jumbotron-fluid {
+  background: #EDF2F4;
+  padding: 100px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+p {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 100;
+}
+h1 ~ p {
+  margin-bottom: 0;
+}
+li {
+  font-family: inherit;
+  font-weight: 100;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #8D99AE;
+  padding: 10px;
+  margin-bottom: 20px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #8D99AE;
+  content: open-quote;
+  font-size: 3.5em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+blockquote h6 {
+  text-align: right;
+}
+a {
+  color: #2B2D42;
+}
+a:hover {
+  text-decoration: none;
+  color: #2B2D42;
+}
+.title {
+  font-weight: 700;
+  text-align: center;
+}
+.gen-btn {
+  padding-left: 0;
+}
+.btn-dark {
+    color: #c18934;
+    background: #2B2D42;
+}
