@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100);
 
 .jumbotron-fluid {
-  background: #EDF2F4;
+  min-height: 100vh;
+  background-color: rgb(241, 228, 179);
+  color: rgb(19, 48, 70);
   padding: 100px 0;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -16,45 +18,42 @@ p {
 h1 ~ p {
   margin-bottom: 0;
 }
+h1 + p {
+  padding-bottom: 20px;
+}
 li {
   font-family: inherit;
   font-weight: 100;
 }
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #8D99AE;
-  padding: 10px;
-  margin-bottom: 20px;
+  background: rgb(237, 201, 196);
+  color: rgb(21, 149, 159);
+  border-left: 10px solid rgb(199, 139, 109);
+  padding: 25px;
+  margin-bottom: 25px;
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  color: #8D99AE;
+  color: rgb(199, 139, 109);
   content: open-quote;
   font-size: 3.5em;
   line-height: 0.1em;
   vertical-align: -0.4em;
 }
-blockquote p {
+#quote {
   display: inline;
+  font-weight: 400;
 }
-blockquote h6 {
+#author {
   text-align: right;
-}
-a {
-  color: #2B2D42;
-}
-a:hover {
-  text-decoration: none;
-  color: #2B2D42;
+  padding-top: 10px;
+  font-weight: 700;
 }
 .title {
   font-weight: 700;
   text-align: center;
 }
-.gen-btn {
-  padding-left: 0;
-}
 .btn-dark {
-    color: #c18934;
-    background: #2B2D42;
+    color: rgb(19, 48, 70);
+    background: rgb(199, 139, 109);
 }
